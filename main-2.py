@@ -1,7 +1,7 @@
 import json
 import requests
 
-def get_text():
+'''def get_text():
     headers = {
         "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiYjJlMTIxYjUtOWJlNy00YjAzLWEzMGYtNjE3YjMxODVlYjRkIiwidHlwZSI6ImFwaV90b2tlbiJ9.lGQpMRulvr5QIAYIIEL4shQhqGtVbN0Zg_0VvJacDvo"}
 
@@ -17,7 +17,7 @@ def get_text():
 
     result = json.loads(response.text)
     print(result)
-    print(result['openai']['generated_text'])
+    print(result['openai']['generated_text'])'''
 
 city_name = 'Madrid'
 key = '2f44ab8d94825710392977b37c24d3ac'
